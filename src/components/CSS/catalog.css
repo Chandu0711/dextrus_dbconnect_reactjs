@@ -1,0 +1,37 @@
+.left-nav {
+    padding-top: 20px;
+    height: 92vh;
+    overflow-y: scroll;
+    background-color: #f2f2f2;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+}
+.catalog-pnt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    padding-left: 15px; 
+}
+.catalog{
+    display: flex;
+}
+.catalog-cld{
+    border: none;
+    display: flex;
+    gap: 10px;
+}
+.cat{
+    display: flex;
+    gap: 5px;
+    width: 10vw;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.catalog-cld:hover {  
+    background-color: rgb(121, 170, 170); 
+}

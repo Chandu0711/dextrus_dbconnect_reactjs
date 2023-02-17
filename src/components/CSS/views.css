@@ -1,0 +1,18 @@
+.views-pnt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    padding-left: 15px; 
+    cursor: pointer;
+}
+.views-cld{
+    border: none;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.views-cld:hover {  
+    background-color: rgb(121, 170, 170); 
+}
